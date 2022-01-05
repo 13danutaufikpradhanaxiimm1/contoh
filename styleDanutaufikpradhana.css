@@ -1,0 +1,128 @@
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+.logo {
+  float: right;
+  font-size: 36px;
+  padding: 20px 40px;
+  color: gold;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.main {
+  padding: 100px 80px;
+}
+
+.copy-container h1 {
+  font-size: 140px;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+}
+.copy-container img{
+	size: 250px 250px;
+	width:500px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	border-radius: 20px;
+    border-style: double;
+    border-color: lightblue;
+	border-width: 10px;
+	}
+	
+
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+/* Gantikan tinggi contents ke 500px */
+.contents {
+  height: 500px;
+ }
+.contents h3{
+  background-color:red;
+  width:100px;
+}
+/* Gantikan property border-bottom milik section-title */
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+}
+
+/* Gantikan property float milik contents-item ke left */
+.contents-item {
+  float: left;
+  padding: 10px;
+  
+}
+.contents-item img{
+	border-radius: 20px;
+    border-style: solid;
+    border-color: lightblue;
+	border-width: 10px;
+}
+.container {
+  display: block;
+  position: relative;
+  margin-bottom: 12px;
+  cursor: pointer;
+ }
+  
+.contact-submit{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+.footer-copy{
+ text-align: center;
+  border: 3px
+}
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+} 
